@@ -7,7 +7,7 @@ pipeline {
         AWS_DEFAULT_REGION = 'us-east-1'
         AWS_ECS_CLUSTER = 'LearnJenkinsApp-Tudor-Cluster-Prod'
         AWS_ECS_SERVICE_PROD = 'LearnJenkinsApp-Service-Prod'
-        AWS_ECS_TD = 'LearnJenkinsApp-Tudor-TaskDefinition-Prod'
+        AWS_ECS_TD_PROD = 'LearnJenkinsApp-Tudor-TaskDefinition-Prod'
     }
 
     stages {
